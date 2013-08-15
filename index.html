@@ -41,10 +41,12 @@
 	<div class="second">
 		<h1><a id="contact">Contact</a></h1>
 		<h2><i>Get in touch with me...</i></h2>
-		Name:  <input type="text" name="name" id="name"><br>
-		Email: <input type="email" name="email" id="email"><br><br>
-		Message: <br><textarea rows="10" cols="42" placeholder="  Add your message here..." name="message" id="message"></textarea><br>
-		<input type="submit" name="submit" id="submit" value="submit">
+		<form method="post" action="contact.php">
+			Name:  <input type="text" name="name" id="name"><br>
+			Email: <input type="email" name="email" id="email"><br><br>
+			Message: <br><textarea rows="10" cols="42" placeholder="  Add your message here..." name="message" id="message"></textarea><br>
+			<input type="submit" name="submit" id="submit" value="submit">
+		</form>
 	</div>
 
 </body>
